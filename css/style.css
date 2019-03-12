@@ -1,0 +1,243 @@
+body{
+    font-family: 'Monserrat',sans-serif !important;
+}
+
+header .result-iubat{
+    float: right;
+    margin-right: 10px;
+}
+.card-header h5{
+    display: inline-block;
+}
+.custome-color-pest{
+    color:#3DB173;
+    font-size: 24px;
+}
+.bg-custom{
+   background-color: #E02222;
+}
+.border-custom-red{
+    border:1px solid red;
+}
+.result .forgot-info{
+    background-color: #F2DEDE;
+}
+.bg-custom-green{
+    background-color: #1F7C25;
+}
+.my-border-bottom{
+    border-bottom: 3px solid #3DB173;
+}
+.phone-number p{
+    font-size: 12px;
+    padding-top: 7px;
+
+}
+.my-active a{
+    color: #257003 !important;
+    border-top: 2px solid #257003;
+}
+nav ul li a:hover{
+    border-top: 2px solid #257003;
+}
+.dropdown:hover ul{
+    display: block;
+
+}
+.dropdown:hover ul li a:hover{
+    background-color: gray;
+
+
+}
+.custome-posi{
+    position: sticky !important;
+    top: 0px;
+}
+/*discover library hover efect*/
+.box{
+    position: relative;
+   height: 300px;
+
+}
+.box .first-box{
+    position: absolute;
+    transition: .5s;
+}
+.box:hover .first-box {
+    transform: scale(0);
+}
+.box .second-box{
+    position: absolute;
+    top:0px;
+    right: 5px;
+    left: 5px;
+    padding: 10px;
+    background:#17632F;
+    color: white;
+    text-align: justify;
+    transform: scale(0);
+    transition: .5s;
+}
+.box:hover .second-box{
+    transform: scale(1);
+}
+
+/*big footer    */
+.big-footer{
+    color: white;
+    background-color: #1F7C25;
+}
+.big-footer p{
+    font-size: 13px;
+}
+.big-footer h6{
+    color:rgb(221, 221, 221);
+    font-size: 14px;
+}
+.recent-post ul li{
+    list-style-type: none;
+    border-bottom: 1px solid #00631F;
+    padding: 9px 0 9px 0;
+}
+.recent-post ul li a{
+    text-decoration: none;
+    color:white;
+    font-size: 13px;
+
+}
+.recent-post ul li a:hover{
+    color: black !important;
+}
+.recent-post ul li a:before{
+    content: ">";
+   margin-right: 10px;
+
+}
+.important-link ul li a{
+    color:white;
+    text-decoration: none;
+}
+
+/*another hover effect*/
+.main-box{
+    position: relative;
+    width: 100%;
+    height: 350px;
+    background-color: #3DB173;
+
+}
+.student-act{
+    position: absolute;
+    transition: .5s;
+
+}
+.main-box:hover .student-act{
+   transform: scaleY(0);
+}
+.social-life{
+    position: absolute;
+    top:0px;
+    right: 5px;
+    left: 5px;
+    padding: 10px;
+
+    color: white;
+    text-align: justify;
+    transform: scale(0);
+    transition: .5s;
+}
+.main-box:hover .social-life {
+    transform: scaleX(1);
+}
+
+.box-1{
+    position: relative;
+    height: 200px;
+    width: 300px;
+}
+.box-1 .img-box{
+    position: absolute;
+}
+.box-1 .img-box img{
+    width: 100%;
+
+    transition: 1s;
+}
+
+.box-1:hover .img-box img{
+    transform: scale(1);
+}
+.box-1 .content-box {
+    position: absolute;
+
+    right: 10px;
+    left: 10px;
+    padding: 90px 0 87px;
+    background: rgba(0,0,0,0.4);
+    color: white;
+    transform: scaleY(0);
+    transition: .6s;
+
+}
+.box-1:hover .content-box{
+    transform: scale(1);
+}
+.address {
+    padding: 10px;
+    font-size: 13px;
+    border-top: 2px dotted darkgreen;
+}
+
+/*faculty*/
+
+.portfolio-menu ul {list-style-type: none;
+position: static;
+    left: 0;
+    top: 100px;
+}
+
+.portfolio-menu ul li{
+    margin: 7px 0 7px ;
+    padding: 8px 14px;
+    border: 1px solid gray;
+    border-left: none;
+    border-right: none;
+    cursor: pointer;
+}
+
+.portfolio-menu ul li:hover{
+    background-color: red;
+    color: white;
+}
+
+li.active{
+    background-color: red;
+    color: white;
+}
+.item ul {list-style-type: none;
+margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+/*
+.navbar-nav li:hover{
+    border-top: 2px solid #257003;
+}
+.dropdown:hover ul{
+    background-color: #1F7C25;
+
+    display: block;
+
+}
+.dropdown:hover ul li a{
+    color: white;
+
+
+}
+.dropdown:hover ul li a:hover{
+    color:black;
+}*/
